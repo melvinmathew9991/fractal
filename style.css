@@ -1,0 +1,265 @@
+*{
+    font-family: Muli,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.container ul{
+    text-align: center;
+    position: relative;
+    display: flex;
+    list-style: none;
+    color: #fff;
+    float: right;
+    padding-left: 400px;
+
+}
+.container ul li{
+    padding-left: 45px;
+
+}
+
+.container ul li a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+.first-div img{
+    
+    width: 100%;
+}
+.second-div{
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    height: 431px;
+    
+}
+
+
+.third-div{
+    width:50%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.third-div h4{
+    color: #aaa;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.third-div h2{
+    color: #f9b31c;
+    margin-left: 200px;
+    font-weight: initial;
+    margin-top: 30px;
+}
+.third-div p{
+    color: #f9b31c;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-weight: inherit;
+    font-size: larger;
+}
+
+.third-div button{
+    color: #0090c4;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.fourth-div img{
+    position: relative;
+    float: right;
+    margin-right: 190px;
+    margin-top: 20px;
+    
+}
+
+.fifth-div h2{
+    color: #f9b31c;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.read-more{
+    background: #f9b31c;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3F3F3E;
+    /* padding-left: 0; */
+}
+
+.card {
+    /* width: 360px;
+    height: 174.31px; */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-evenly;
+    /* background: #333333; */
+
+    
+}
+
+.card p{
+    margin: 30px;
+    /* text-align: left; */
+    /* padding-left: 20px; */
+}
+
+.first-section{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    width: 1549.2px;
+    padding-left: 206.6px;
+    padding-right: 192.6px;
+
+}
+
+.card img{
+    width: 360px;
+    height: 252px;
+    background-size: cover;
+}
+
+
+
+.recognitions h2{
+    color: #f9b31c;
+    margin-left: 200px;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+.recognitions {
+    text-decoration: none;
+    color: #f9b31c;
+    margin-right: 190px; 
+    display: flex;
+    align-items: center;
+
+}
+
+.recognitions a{
+    margin-left: 750px;
+    text-decoration: none;
+    color: #f9b31c;
+}
+
+.second-section{
+    display: flex;
+    gap: 30px;
+    padding-left: 190px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background: #fafafa;
+    align-items: center;
+    padding: 20px 20px;
+}
+.box img{
+    
+}
+
+.third-section {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+.sixth-div p{
+    color: #aaa;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+.sixth-div h2{
+    color: #f9b31c;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.sixth-div button{
+    background: #f9b31c;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    margin-bottom: 95px;
+
+}
+
+.video{
+    float: right;
+    background: #fafafa;
+    margin-left: 30px;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.fourth-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    background: #000;
+}
+
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.news li a{
+    text-decoration: none;
+    
+}
+
+.terms li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.terms li a {
+    text-decoration: none;
+}
